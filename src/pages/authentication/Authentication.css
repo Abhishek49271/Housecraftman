@@ -1,0 +1,31 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    /* height:'500px',
+    width:'500px',
+    backgroundColor:'red',
+    marginTop:'9%' */
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    margin-top: 12%;
+    border-radius: 15px;
+}
+body{
+    background-color: #F2F4F7;
+}

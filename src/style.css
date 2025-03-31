@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.left{
+    background-image: url('https://www.shutterstock.com/image-photo/aesthetic-composition-easter-living-room-600nw-2428166429.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.8; */
+}
+.container {
+    height: 400px;
+    width: 100%;
+}
+
+.infoitem{
+    height: 80px;
+    width: 390px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-top: 2%;
+    text-align: center;
+    padding-top: 10px;
+}
+.flexclass{
+    display: flex;
+    margin-left: 20px;
+}
+
+.infoitem h2{
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.foot{
+    height: 370px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    margin-top: 0%;
+    border-top: 1px solid grey;
+    display: flex;
+}
+.img{
+    height:370px;
+    width: 25%;
+}
+.company{
+    height:370px;
+    width: 25%;
+}
+.explore{
+    height:370px;
+    width: 25%;
+}
+.connect{
+    height:370px;
+    width: 25%;
+}
+
+.card{
+    height: 250px;
+    width: 230px;
+    margin: 10px;
+    background-position: top;
+    background-size: cover;
+}
+
